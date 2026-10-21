@@ -1,0 +1,19 @@
+name: WayfinderCompass
+version: 1.0.0
+main: dev.wayfinder.WayfinderPlugin
+api-version: '26.3'
+author: Custom
+description: Crossplay-friendly navigation waypoints for Paper and Geyser.
+commands:
+  wp:
+    description: Manage and navigate to Wayfinder waypoints.
+    usage: /wp <item|set|remove|list|shared|stop|help>
+    aliases: [wayfinder, waypoint]
+    permission: wayfinder.use
+permissions:
+  wayfinder.use:
+    description: Use the Wayfinder Compass and manage personal waypoints.
+    default: true
+  wayfinder.admin:
+    description: Create and remove shared waypoints and give compasses to others.
+    default: op
