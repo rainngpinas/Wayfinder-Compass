@@ -1,10 +1,7 @@
-# Maximum number of personal waypoints one player may save.
-max-personal-waypoints: 20
+# Maximum number of waypoints owned by each player, including public ones.
+max-waypoints-per-player: 30
 
-# Maximum number of shared waypoints for the whole server.
-max-shared-waypoints: 50
-
-# Particle marker is sent only to the player navigating to it and only inside this range.
+# Particle marker is sent only to the player navigating to a waypoint and only inside this range.
 marker-visible-range: 80
 
 # Navigation status refresh interval in ticks (20 ticks = 1 second).
